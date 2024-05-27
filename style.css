@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding-top: 71px;
+    width: 1200px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* ---------------sidebar---------------- */
+
+.sidebar {
+    margin-right: 50px;
+    float: left;
+    width: 310px;
+    background-color: rgba(251, 251, 251, 1);
+}
+
+.categories {
+    margin-top: 14px;
+    margin-left: 18px;
+}
+
+.categories-title {
+    padding: 14px 0 7px;
+    font-size: 18px;
+    line-height: 16px;
+    color: rgba(61, 61, 61, 1);
+}
+
+.categories a {
+    margin-left: 12px;
+    color: rgba(61, 61, 61, 1);
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.categories a:hover {
+    font-weight: 700;
+    color: rgba(70, 163, 88, 1);
+}
+
+.sale {
+    margin-top: 377px;
+}
+
+/* ------------------assortment------------------ */
+.assortment {
+    float: right;
+    width: 840px;
+}
+
+.assort-nav {
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 16px;
+    color: rgba(61, 61, 61, 1);
+}
+
+.nav-plants {
+    float: left;
+}
+
+.nav-plants li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-plants a:hover {
+    color: rgba(70, 163, 88, 1);
+    font-weight: 700;
+    padding-bottom: 7px;
+    border-bottom: 2px solid rgba(70, 163, 88, 1);
+}
+
+.nav-plants li:last-child {
+    margin-right: 0;
+}
+
+.nav-sort {
+    float: right;
+    display: flex;
+}
+
+.nav-sort a {
+    margin-left: 10px;
+}
+
+.assort-main .card {
+    float: left;
+}
+
+.card {
+    /* outline: 1px solid black; */
+    width: 258px;
+    height: 350px;
+    margin-right: 33px;
+    margin-bottom: 70px;
+}
+
+.card:nth-child(3n) {
+    margin-right: 0;
+}
+
+.card-wrapper {
+    background-color: rgba(251, 251, 251, 1);
+}
+
+.card img {
+    /* width: 250px;
+    height: 250px; */
+}
+
+.card-info a {
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(61, 61, 61, 1);
+}
+
+.card-info p {
+    font-size: 18px;
+    line-height: 18px;
+    color: rgba(70, 163, 88, 1);
+    font-weight: 700;
+}
