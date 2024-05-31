@@ -19,7 +19,7 @@ li {
 
 .wrapper {
     margin: 0 auto;
-    padding-top: 71px;
+    padding: 70px 0;
     width: 1200px;
 }
 
@@ -114,9 +114,7 @@ li {
 }
 
 .card {
-    /* outline: 1px solid black; */
     width: 258px;
-    height: 350px;
     margin-right: 33px;
     margin-bottom: 70px;
 }
@@ -126,12 +124,19 @@ li {
 }
 
 .card-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 5px;
     background-color: rgba(251, 251, 251, 1);
 }
 
 .card img {
-    /* width: 250px;
-    height: 250px; */
+    width: 250px;
+    height: 250px;
+}
+
+.card-info {
+    padding-top: 15px;
 }
 
 .card-info a {
@@ -141,8 +146,37 @@ li {
 }
 
 .card-info p {
+    margin-top: 6px;
     font-size: 18px;
     line-height: 18px;
     color: rgba(70, 163, 88, 1);
     font-weight: 700;
+}
+
+.pages {
+    display: flex;
+    float: right;
+}
+
+.pages-block {
+    margin-left: 10px;
+}
+
+.pages-block a {
+    padding: 9px 13px;
+    border: 1px solid rgba(229, 229, 229, 1);
+    border-radius: 7px;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.pages-block a:hover {
+    border: 1px solid rgba(70, 163, 88, 1);
+    background-color: rgba(70, 163, 88, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+}
+
+.pages-block:first-child {
+    margin-left: 0px;
 }
